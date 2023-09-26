@@ -1,5 +1,5 @@
 Package: cccmthemes
-Title: What the Package Does (One Line, Title Case)
+Title: CCCM `ggplot2` Theme and Colour Palettes
 Version: 0.0.0.9000
 Authors@R: 
     c(person("Cédric", "Vidonne",
@@ -7,7 +7,8 @@ Authors@R:
 	     role = c("aut", "cre")),
       person("UNHCR",
          role = "cph"))
-Description: What the package does (one paragraph).
+Description: `ggplot2` theme and color palettes following
+    the CCCM Design Guide.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
