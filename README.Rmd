@@ -36,7 +36,7 @@ pak::pkg_install("unhcr-dataviz/cccmthemes")
 
 ## Usage
 
-```{r load, message = FALSE, warning = FALSE, eval=FALSE}
+```{r load, message = FALSE, warning = FALSE}
 # Load required packages
 library(ggplot2)
 library(cccmthemes)
@@ -44,7 +44,7 @@ library(cccmthemes)
 
 ### Base `{ggplot2}` theme
 
-```{r base-plot, message = FALSE, warning = FALSE, out.width="90%", fig.align="center", eval=FALSE}
+```{r base-plot, message = FALSE, warning = FALSE, out.width="90%", fig.align="center"}
 # Apply the theme_unhcr() to your plot
 ggplot(
   mtcars,
@@ -63,7 +63,7 @@ ggplot(
 
 ### Font
 
-The officially recommended font is [`Inter`](https://fonts.google.com/specimen/Inter). To ensure optimal functionality of the `{cccmthemes}` package, please make sure that the `Inter` font is installed on your device prior to usage.
+The officially recommended font is [`Inter`](https://github.com/rsms/inter). To ensure optimal functionality of the `{cccmthemes}` package, please make sure that the `Inter` font is installed on your device prior to usage.
 
 ## Acknowledgements
 

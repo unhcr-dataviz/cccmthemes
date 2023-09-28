@@ -59,10 +59,12 @@ ggplot(
   theme_cccm()
 ```
 
+<img src="man/figures/README-base-plot-1.png" width="90%" style="display: block; margin: auto;" />
+
 ### Font
 
 The officially recommended font is
-[`Inter`](https://fonts.google.com/specimen/Inter). To ensure optimal
+[`Inter`](https://github.com/rsms/inter). To ensure optimal
 functionality of the `{cccmthemes}` package, please make sure that the
 `Inter` font is installed on your device prior to usage.
 
